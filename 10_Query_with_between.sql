@@ -1,0 +1,6 @@
+-- RETURN TRUE IF A VALUE FALLS WITHIN A SPECIFIC RANGE
+SELECT * 
+FROM customers
+WHERE score BETWEEN 100 AND 500
+
+-- SELECT * FROM customers where score >= 100 and score <=500
